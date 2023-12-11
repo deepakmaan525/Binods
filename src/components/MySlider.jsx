@@ -23,7 +23,7 @@ function MySlider() {
 
   return (
     <div className="App min-h-screen container mx-auto px-4 flex items-center">
-      <p className=' text-start text-8xl font-bold text-white'> Binods Are: <span className=' text-orange-400'  ref={el} />
+      <p className=' text-start text-2xl sm:text-8xl font-bold text-white'> Binods Are: <span className=' text-orange-400'  ref={el} />
       </p>
     </div>
   );
