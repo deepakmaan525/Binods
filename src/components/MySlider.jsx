@@ -6,7 +6,7 @@ function MySlider() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Vishnu', ' Prince','Deepak','Sanju','Vikram','Deepak Seth', 'Pankaj','Sameer','Ram Sharma','Shubham Tau'],
+      strings: ['Vishnu', ' Prince','Deepak','Sanju','Vikram','Deepak Seth', 'Pankaj','Sameer','Ram Sharma','Shubham Tau','Manoj','Dinesh'],
       typeSpeed: 100,
       loop: true,
       startDelay: 100,
