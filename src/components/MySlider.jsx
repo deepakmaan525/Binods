@@ -1,12 +1,11 @@
 import React from 'react';
 import Typed from 'typed.js';
-
 function MySlider() {
   const el = React.useRef(null);
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Vishnu', ' Prince','Deepak','Sanju','Vikram','Deepak Seth', 'Pankaj','Sameer','Ram Sharma','Shubham Tau','Manoj','Dinesh'],
+      strings: ['Vishnu', ' Prince','Deepak','Sanju','Vikram','Deepak Seth', 'Pankaj','Sameer','Ram Sharma','Shubham Tau','Manoj','Dinesh','Naman'],
       typeSpeed: 100,
       loop: true,
       startDelay: 100,
